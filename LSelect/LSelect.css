@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
+.select-content{
+	display:inline;
+	position:absolute;
+	width: 100%;
+	background: #fff;
+	z-index: 99;
+	max-height: 200px;
+	overflow-y: auto;
+}
+.select-inner{
+	font-size:16px;
+	line-height:1.5em;
+	margin: 0;
+	padding: 0;
+}
+.select-inner li{
+	margin: 0;
+	line-height: 45px;
+	padding: 0 10px;
+	list-style: none;
+	color:#7a7a7a;
+	border-bottom:1px solid #ddd;
+}
+.select-inner li.active{
+	background: #f6f6f6;
+}
